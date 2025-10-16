@@ -99,30 +99,12 @@ server.port=8761
 eureka.client.register-with-eureka=false
 eureka.client.fetch-registry=false
 
-# Auth Service
-server.port=8081
-spring.datasource.url=jdbc:postgresql://localhost:5432/authdb
-spring.datasource.username=authuser
-spring.datasource.password=yourpassword
-spring.datasource.driver-class-name=org.postgresql.Driver
 
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
-
-eureka.client.service-url.defaultZone=http://localhost:8761/eureka/
-
-jwt.secret=yourSecretKey
-jwt.expiration=3600000
-Dependencies
-Ensure your pom.xml files include the necessary dependencies for Spring Boot, Spring Cloud, and other required libraries.
-Contributing
-Feel free to contribute to this project by submitting pull requests. Please ensure that your contributions follow the existing code style and include necessary tests.
-License
+# Feel free to contribute to this project by submitting pull requests. Please ensure that your contributions follow the existing code style and include necessary tests.
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
-For any questions or issues, please contact your-email@example.com.
+For any questions or issues, please contact imrajeevnayan@gmail.com.
 
 
 
