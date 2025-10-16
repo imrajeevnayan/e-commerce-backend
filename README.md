@@ -73,34 +73,10 @@ e-commerce-backend/
 mvn clean install
 mvn spring-boot:run
 ```
-**Verify the Eureka Server**:
-Open your browser and navigate to http://localhost:8761.
-You should see the Eureka dashboard.
-Setting Up the Auth Service
-Navigate to the Auth Service Directory:
-sh
-Copy
-cd e-commerce-backend/auth-service
-Build and Run the Auth Service:
-sh
-Copy
-mvn clean install
-mvn spring-boot:run
-Verify the Auth Service:
-Use a tool like Postman to test the authentication endpoints.
-Example endpoint: POST http://localhost:8081/api/auth/login
-Configuration
-Database Configuration
-Ensure your application.properties files are correctly configured to connect to your database. For PostgreSQL, your application.properties should look like this:
-properties
-Copy
-# Eureka Server
-server.port=8761
-eureka.client.register-with-eureka=false
-eureka.client.fetch-registry=false
 
 
-# Feel free to contribute to this project by submitting pull requests. Please ensure that your contributions follow the existing code style and include necessary tests.
+
+### Feel free to contribute to this project by submitting pull requests. Please ensure that your contributions follow the existing code style and include necessary tests.
 # License
 This project is licensed under the MIT License - see the LICENSE file for details.
 Contact
